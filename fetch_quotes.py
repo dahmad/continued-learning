@@ -1,17 +1,11 @@
 from glob import glob
+from shared import file_paths_target
 from yaml import load, dump
 try:
     from yaml import CLoader as Loader, CDumper as Dumper
 except ImportError:
     from yaml import Loader, Dumper
 
-directory_origin = 'sources'
-directory_target = 'notes'
-file_format_origin = '.pdf'
-file_format_target = '.yml'
-
-file_paths_origin = sorted(glob(f"{directory_origin}/*{file_format_origin}"))
-file_paths_target = sorted(glob(f"{directory_target}/*{file_format_target}"))
 
 def capitalize_words(words):
     return " ".join([word.capitalize() for word in words.split('-')])
