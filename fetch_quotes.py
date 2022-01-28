@@ -5,6 +5,7 @@ try:
     from yaml import CLoader as Loader, CDumper as Dumper
 except ImportError:
     from yaml import Loader, Dumper
+from termcolor import colored
 
 
 def capitalize_words(words):
@@ -23,9 +24,10 @@ for file_path_target in file_paths_target:
                     quotes.append({
                         "text": quote,
                         "title": capitalize_words(title),
-                        "chapter": capitalize_words(chapter)
+                        "chapter": chapter
                     })
 
 for i, quote in enumerate(quotes):
-    print(f"\n{i + 1:02d}: \"{quote['text']}\" - {quote['title']}, {quote['chapter']}")
+    attribution = f"\n- {quote['title']}, {quote['chapter']}"
+    print(f"\n{i + 1:02d}: {colored(quote['text'], 'grey', 'on_white')}{attribution}")
 print()
