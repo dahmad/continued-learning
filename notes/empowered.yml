@@ -1,8 +1,33 @@
 "Part I Lessons from Top Tech Companies, Chapter 1 Behind Every Great Company":
   quotes:
-    - ""
+    - "[In] strong product companies, the purpose of the product team is to serve customers by creating products customers love, yet work for the business." # not sure of page number
+    - "[A] focused and compelling product strategy—based on quantitative and qualitative insights—is among the most important contributions of product leadership." # 9
+    - "[In] strong product companies, teams are instead given problems to solve, rather than features to build, and most important, they are empowered to solve those problems in the best way they see fit. And they are then held accountable to the results. In the empowered product team model, the product manager has a clear responsibility, which is to ensure that the solutions are valu- able (our customers will buy the product and/or choose to use it), and viable (it will meet the needs of the business). Together with a prod- uct designer who is responsible for ensuring the solution is usable, and a tech lead who is responsible for ensuring the solution is feasible, the team is able to collaborate to address this full range of risks (value, via- bility, usability, and feasibility)." # 9-10
+    - "We refer to this as product discovery to acknowledge that we understand what we can’t know in advance, and to emphasize that our task is to discover a solution that is valuable, usable, feasible, and viable." # 11
   notes:
-    - ""
+    - "Product teams need not just techniques, but a company that allows them to thrive by: treating IT as a core business enabler connected to real customers, offering coaching, staffing effectively, having a compelling product vision beyond running a 'feature factory,' granting responsibility to teams beyond being a cog, having a product strategy, appropriately using OKRs, bridging tech teams and rest of business, and balancing empowerment and accountability for teams." # 1-3
+    - "Asking contributors to shepherd backlog items through their process leads to minimal motivation, ownership, or innovation." # 4
+    - "Strong product companies are successful and their approaches aren't a secret, but transformation isn't easy." # 4
+    - "Hard truths if you do not have 'empowered product teams': you won't get results, competitors that provide products customers love will take your customers, you will waste talent and talented people will leave, and being Agile is not enough." # 4
+    
+    # start of chapter
+    - "Companies with great 'product cultures' can still have different cultures from each other." # 5
+    - "The fundamental factor relates to views on role of technology, purpose of people working on technology, and expectations about collaborating to solve problems." # 5
+    - "Strong product cultures create an environment that enables the greatness within everyone to emerge. This book examines what creates such an environment." # 6
+    
+    # The Role of Technology
+    - "Treating technology as subservient to the business and simply a necessary expense rather than a tool that enables the solving of problems for customers that are brand new." # 7
+
+    # Strong Product Leadership
+    - "Weak companies have mere facilitators that staff the 'feature factory' with no product strategy beyond a checklist to be completed by quarter's end." # 8
+    - "Post-Agile, companies need better leaders, not fewer." # 8
+    - "Command-and-control serves micromanagement. The opposite is when leaders staff and coach teams, who then convert strategy into action and action into results." # 8
+
+    # Empowered Product Teams
+    - "The opposite of an empowered product team is a feature team. The two are superficially similar, but the former is held accountable to results and the latter to outputs. The former does product discovery, the latter only delivers. " # 9
+    - "Product managers go beyond project management by focusing on value and viability. Usability and feasibility are trusted to by designers and engineers." # 9-10
+    - "A delivery team/dev team/Scrum team/ doesn't even pretend to be a true product team." # 10
+    - "To recap INSPIRED: customers and stakeholders can't tell us what to build because they are not experts in enabling-technologies and thus cannot conveice of the solution and because it is hard to predict what will work." # 11
 
 "Part I Lessons from Top Tech Companies, Chapter 2 The Role of Technology":
   quotes:
